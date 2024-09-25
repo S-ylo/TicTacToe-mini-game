@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*[disabled] {
+  opacity: .5;
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+video,
+audio,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+a {
+  color: hsl(220, 70%, 50%);
+}
+
+a:visited {
+  color: hsl(280, 70%, 50%);
+}
